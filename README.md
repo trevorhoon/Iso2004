@@ -98,16 +98,6 @@ A001|S001|Hein Htet San|2026-05-16|Present|On time
 A002|S002|John Doe|2026-05-16|Late|Arrived 10 minutes late
 ```
 
-## Screenshots
-
-> Add screenshots after running the app.
-
-- Dashboard Screen (placeholder)
-- Student Management Screen (placeholder)
-- Mark Attendance Screen (placeholder)
-- Attendance Records Screen (placeholder)
-- Attendance Summary Screen (placeholder)
-
 ## What I Learned
 
 - How to build a complete desktop application with Java Swing
