@@ -1,0 +1,3 @@
+T001|Income|Allowance|5000.00|Monthly allowance|2026-05-16
+T002|Expense|Food|120.00|Lunch at university|2026-05-16
+T003|Expense|Transport|45.00|BTS fare|2026-05-16
