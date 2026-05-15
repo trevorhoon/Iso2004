@@ -1,0 +1,3 @@
+65010001|Anan|Sukjai|Male|Computer Science|0812345678|anan.su@example.com
+65010002|Nicha|Boonmee|Female|Information Technology|0898765432|nicha.bo@example.com
+65010003|Krit|Rattanakul|Male|Software Engineering|0861122334|krit.ra@example.com
