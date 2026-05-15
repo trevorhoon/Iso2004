@@ -1,42 +1,91 @@
-# Iso2004
+# Library Management System
 
-I am a Computer Science student at Rangsit University, Thailand.  
-I am currently learning Java, NetBeans, Object-Oriented Programming, and software development.
+## Short Description
+Library Management System is a beginner-friendly Java Swing desktop application for managing books, members, and borrowing/returning records using file handling (`.txt` files) instead of a database.
 
-## Skills
+## Features
+- Add, view, search, update, and delete books
+- Register, view, search, update, and delete members
+- Borrow and return books
+- Prevent borrowing when available quantity is 0
+- Prevent returning books that are not currently borrowed
+- Store and load all data from text files
+- Show clear success/error messages with `JOptionPane`
 
-- Java
-- NetBeans
-- Object-Oriented Programming
-- File Handling
-- Swing GUI
-- Git and GitHub
+## Technologies Used
+- Java (OOP)
+- Java Swing GUI
+- File Handling (`BufferedReader`, `FileWriter`, `PrintWriter`)
+- NetBeans-compatible project structure
 
-## Projects
+## How to Run in NetBeans
+1. Open NetBeans.
+2. Create/Open a Java project and point to this repository folder.
+3. Ensure source files are under `src/librarymanagementsystem/`.
+4. Run `Main.java`.
+5. The app will load data from:
+   - `books.txt`
+   - `members.txt`
+   - `borrow_records.txt`
 
-### 1. Java Banking System
-A desktop banking application built with Java Swing and file handling.
+## Project Structure
+```
+Library Management System/
+├── src/
+│   └── librarymanagementsystem/
+│       ├── Main.java
+│       ├── MainFrame.java
+│       ├── Book.java
+│       ├── BookManager.java
+│       ├── Member.java
+│       ├── MemberManager.java
+│       ├── BorrowRecord.java
+│       └── BorrowManager.java
+├── books.txt
+├── members.txt
+├── borrow_records.txt
+├── .gitignore
+└── README.md
+```
 
-Features:
-- User registration
-- Login system
-- Deposit
-- Withdraw
-- Transfer
-- View balance
-- Transaction history
-- Profile editing
+## Sample Data Format
+### books.txt
+`BookID|Title|Author|Category|PublishedYear|Quantity|AvailableQuantity`
 
-### 2. Student Management System
-A Java desktop application for managing student records.
+Example:
+`B001|Introduction to Java|John Smith|Programming|2022|5|5`
 
-Features:
-- Add student
-- Search student
-- Update student
-- Delete student
-- Save data to file
+### members.txt
+`MemberID|FullName|PhoneNumber|Email`
 
-## Career Goal
+Example:
+`M001|Hein Htet San|0912345678|demo@gmail.com`
 
-My goal is to become a Java Developer, Backend Developer, or Software Engineer.
+### borrow_records.txt
+`TransactionID|MemberID|MemberName|BookID|BookTitle|BorrowDate|ReturnDate|Status`
+
+Example:
+`T001|M001|Hein Htet San|B001|Introduction to Java|2026-05-16|-|Borrowed`
+
+## Screenshots
+- Dashboard screen *(add screenshot here)*
+- Book Management screen *(add screenshot here)*
+- Member Management screen *(add screenshot here)*
+- Borrow/Return screen *(add screenshot here)*
+- Transaction History screen *(add screenshot here)*
+
+## What I Learned
+- Designing a Java desktop app with Swing
+- Applying OOP using separate model and manager classes
+- Managing persistent data with text files
+- Implementing input validation and user-friendly error handling
+
+## Future Improvements
+- Add MySQL database
+- Add login system
+- Add admin and librarian roles
+- Add overdue fine calculation
+- Add due date reminder
+- Add book cover image
+- Add report generation
+- Improve UI design

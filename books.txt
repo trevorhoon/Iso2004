@@ -1,0 +1,2 @@
+B001|Introduction to Java|John Smith|Programming|2022|5|5
+B002|Database Basics|Mary Lee|Computer Science|2021|3|3
