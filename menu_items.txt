@@ -1,0 +1,5 @@
+ItemID|ItemName|Category|Price|AvailabilityStatus
+F001|Chicken Fried Rice|Food|65.00|Available
+D001|Thai Milk Tea|Drink|45.00|Available
+DS001|Chocolate Cake|Dessert|80.00|Available
+S001|French Fries|Snack|50.00|Unavailable

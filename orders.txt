@@ -1,0 +1,1 @@
+OrderID|ItemID|ItemName|Quantity|Price|Subtotal|VAT|NetTotal|MoneyPaid|ChangeAmount|DateTime
