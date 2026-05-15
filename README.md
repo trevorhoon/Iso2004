@@ -53,14 +53,6 @@ T002|Expense|Food|120.00|Lunch at university|2026-05-16
 T003|Expense|Transport|45.00|BTS fare|2026-05-16
 ```
 
-## Screenshots
-> Add screenshots before publishing your GitHub portfolio.
-
-- `[Place screenshot here] Dashboard Screen`
-- `[Place screenshot here] Add Transaction Screen`
-- `[Place screenshot here] Transaction History Screen`
-- `[Place screenshot here] Monthly Summary Screen`
-
 ## What I Learned
 - How to build a complete desktop CRUD app using Java Swing
 - How to separate responsibilities using OOP classes
