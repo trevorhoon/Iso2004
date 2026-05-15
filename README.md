@@ -72,21 +72,6 @@ This application simulates common banking operations in a desktop environment. I
 ├── README.md
 └── .gitignore
 ```
-
----
-
-## Screenshots
-
-> Replace these placeholders with actual screenshots from your project.
-
-- Login Screen: `![Login Screen](docs/screenshots/login-placeholder.png)`
-- Registration Screen: `![Registration Screen](docs/screenshots/register-placeholder.png)`
-- Dashboard / Main Menu: `![Dashboard](docs/screenshots/dashboard-placeholder.png)`
-- Transaction History: `![Transaction History](docs/screenshots/history-placeholder.png)`
-- Admin Customer View: `![Admin View](docs/screenshots/admin-placeholder.png)`
-
----
-
 ## What I Learned
 
 Through this project, I practiced and improved:
