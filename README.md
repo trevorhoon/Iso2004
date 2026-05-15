@@ -63,10 +63,10 @@ Example:
 `S001|P001|Coca Cola|2|50.00|3.50|53.50|100.00|46.50|2026-05-16 14:30`
 
 ## Screenshots
-- Dashboard screen: *(add screenshot here)*
-- Product Management screen: *(add screenshot here)*
-- Sales / POS screen: *(add screenshot here)*
-- Transaction History screen: *(add screenshot here)*
+- Dashboard screen
+- Product Management screen
+- Sales / POS screen
+- Transaction History screen
 
 ## What I Learned
 - Building a desktop app with Java Swing components
