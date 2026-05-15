@@ -1,0 +1,2 @@
+P001|Coca Cola|Drink|20|25.00
+P002|Notebook|Stationery|15|35.00

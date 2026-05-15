@@ -1,42 +1,85 @@
-# Iso2004
+# POS Inventory System
 
-I am a Computer Science student at Rangsit University, Thailand.  
-I am currently learning Java, NetBeans, Object-Oriented Programming, and software development.
+## Short Description
+A beginner-friendly Java Swing desktop application for product inventory and point-of-sale (POS) management using file handling (`.txt`) instead of a database.
 
-## Skills
+## Features
+- Add new product
+- View all products
+- Search product by Product ID or Product Name
+- Update product information
+- Delete product
+- Sell product with stock check
+- Auto-reduce stock after successful sale
+- Prevent sale when stock is not enough
+- Calculate total price, VAT (7%), net price, and customer change
+- Save and load product data from `products.txt`
+- Save sales history to `sales.txt`
+- Show success/error messages using `JOptionPane`
 
-- Java
-- NetBeans
-- Object-Oriented Programming
-- File Handling
-- Swing GUI
-- Git and GitHub
+## Technologies Used
+- Java (OOP)
+- Java Swing (`JFrame`, `JPanel`, `JLabel`, `JTextField`, `JButton`, `JTable`, `JScrollPane`, `JOptionPane`)
+- File handling (`BufferedReader`, `BufferedWriter`, `FileReader`, `FileWriter`)
 
-## Projects
+## How to Run in NetBeans
+1. Open NetBeans.
+2. Click **File > Open Project** and select this project folder.
+3. Ensure the source package is `posinventorysystem` under `src`.
+4. Run `Main.java`.
+5. The app will load product data from `data/products.txt` automatically.
 
-### 1. Java Banking System
-A desktop banking application built with Java Swing and file handling.
+## Project Structure
+```
+POS Inventory System/
+├── src/
+│   └── posinventorysystem/
+│       ├── Main.java
+│       ├── MainFrame.java
+│       ├── Product.java
+│       ├── ProductManager.java
+│       ├── Sale.java
+│       └── SalesManager.java
+├── data/
+│   ├── products.txt
+│   └── sales.txt
+├── .gitignore
+└── README.md
+```
 
-Features:
-- User registration
-- Login system
-- Deposit
-- Withdraw
-- Transfer
-- View balance
-- Transaction history
-- Profile editing
+## Sample Data Format
+### `products.txt`
+Format:
+`ProductID|ProductName|Category|Quantity|Price`
 
-### 2. Student Management System
-A Java desktop application for managing student records.
+Example:
+`P001|Coca Cola|Drink|20|25.00`
 
-Features:
-- Add student
-- Search student
-- Update student
-- Delete student
-- Save data to file
+### `sales.txt`
+Format:
+`SaleID|ProductID|ProductName|QuantitySold|TotalPrice|VAT|NetPrice|MoneyPaid|ChangeAmount|DateTime`
 
-## Career Goal
+Example:
+`S001|P001|Coca Cola|2|50.00|3.50|53.50|100.00|46.50|2026-05-16 14:30`
 
-My goal is to become a Java Developer, Backend Developer, or Software Engineer.
+## Screenshots
+- Dashboard screen: *(add screenshot here)*
+- Product Management screen: *(add screenshot here)*
+- Sales / POS screen: *(add screenshot here)*
+- Transaction History screen: *(add screenshot here)*
+
+## What I Learned
+- Building a desktop app with Java Swing components
+- Applying OOP with separate manager and model classes
+- Implementing input validation for POS operations
+- Using file handling for persistent storage
+- Designing a beginner-friendly project structure for GitHub
+
+## Future Improvements
+- Add MySQL database
+- Add login system
+- Add admin and cashier roles
+- Add receipt printing
+- Add daily sales report
+- Add barcode support
+- Improve UI design
