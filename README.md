@@ -67,13 +67,6 @@ Example:
 Example:
 `T001|M001|Hein Htet San|B001|Introduction to Java|2026-05-16|-|Borrowed`
 
-## Screenshots
-- Dashboard screen *(add screenshot here)*
-- Book Management screen *(add screenshot here)*
-- Member Management screen *(add screenshot here)*
-- Borrow/Return screen *(add screenshot here)*
-- Transaction History screen *(add screenshot here)*
-
 ## What I Learned
 - Designing a Java desktop app with Swing
 - Applying OOP using separate model and manager classes
