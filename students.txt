@@ -1,0 +1,2 @@
+S001|Hein|Htet San|Male|Computer Science|0912345678|demo@gmail.com
+S002|John|Doe|Male|Information Technology|0987654321|john@example.com

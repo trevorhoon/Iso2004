@@ -1,0 +1,2 @@
+A001|S001|Hein Htet San|2026-05-16|Present|On time
+A002|S002|John Doe|2026-05-16|Late|Arrived 10 minutes late
