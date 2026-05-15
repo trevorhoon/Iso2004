@@ -75,14 +75,6 @@ Example:
 - `O001|F001|Chicken Fried Rice|2|65.00|130.00|9.10|139.10|200.00|60.90|2026-05-16 14:30`
 - `O002|D001|Thai Milk Tea|1|45.00|45.00|3.15|48.15|100.00|51.85|2026-05-16 14:35`
 
-## 8. Screenshots
-> Add screenshots here after running the app.
-
-- Dashboard screen: `screenshots/dashboard.png`
-- Menu Management screen: `screenshots/menu-management.png`
-- Order POS screen: `screenshots/order-pos.png`
-- Order History screen: `screenshots/order-history.png`
-
 ## 9. What I Learned
 - How to structure a Java Swing app using OOP.
 - How to separate responsibilities between data classes, managers, and GUI classes.
